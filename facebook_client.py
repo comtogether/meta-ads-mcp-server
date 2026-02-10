@@ -26,14 +26,14 @@ class FacebookAdsClient:
     def __init__(
         self,
         access_token: Optional[str] = None,
-        api_version: str = "v22.0"
+        api_version: str = "v24.0"
     ) -> None:
         """
         Initialize Facebook Ads API client.
 
         Args:
             access_token: Facebook access token (defaults to FACEBOOK_ACCESS_TOKEN env var)
-            api_version: Facebook API version (default: "v22.0")
+            api_version: Facebook API version (default: "v24.0")
 
         Raises:
             ValueError: If no access token is provided or found in environment

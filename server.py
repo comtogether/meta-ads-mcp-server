@@ -354,7 +354,7 @@ def get_account_insights(
             end_date="2025-01-31",
             fields=["campaign_name", "spend", "impressions"],
             level="campaign",
-            campaign_ids=["120235919196570172", "120233299253770172"]
+            campaign_ids=["123456789012345678", "234567890123456789"]
         )
         
         **4. Get conversion data with purchases and leads:**
